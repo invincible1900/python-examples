@@ -1,0 +1,33 @@
+1506415077878	geckodriver	INFO	geckodriver 0.18.0
+1506415077885	geckodriver	INFO	Listening on 127.0.0.1:65321
+1506415079907	geckodriver::marionette	INFO	Starting browser E:\Firefoxd\firefox.exe with args ["-marionette"]
+1506415080192	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///E:/Firefoxd/omni.ja!/components/addonManager.js:65
+1506415081166	Marionette	INFO	Enabled via --marionette
+[Parent 1444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000[Parent 824] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506415084664	Marionette	INFO	Listening on port 65327
+1506415084671	Marionette	INFO	Listening on port 65327
+1506415085144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506415085184	Marionette	DEBUG	loaded listener.js
+1506415085219	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506415086368	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506415086369	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506415086770	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://perbank.abchina.com/EbankSite/startup.do"
+1506415087166	Marionette	DEBUG	Received DOM event "pageshow" for "https://perbank.abchina.com/EbankSite/startup.do"
+[Child 9928] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:618:19
+observe@resource://gre/modules/AsyncShutdown.jsm:531:9
+addBlocker/moduleBlocker/<@jar:file:///E:/Firefoxd/omni.ja!/components/nsAsyncShutdown.js:155:15
+Promise@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:390:5
+moduleBlocker@jar:file:///E:/Firefoxd/omni.ja!/components/nsAsyncShutdown.js:151:29
+trigger@resource://gre/modules/AsyncShutdown.jsm:700:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:847:7
+wait@resource://gre/modules/AsyncShutdown.jsm:831:28
+observe@resource://gre/modules/AsyncShutdown.jsm:514:17
+
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+cc, line 346
+[Child 9324] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<div id="PowerEnterDiv_userName" style="display: inline; margin-left: 10px;">
+                            <script>
+                                password.WritePassObjectOrg("powerpass_ie", { "randomText": "9F0C912C7133BD71EA969A93FEABD8B3", "softkbdType": 0, "maxLength": "30", "minLength": "6", "accepts": "^[A-Za-z0-9-]*$", "width": "225", "height": "36", "borderColor": "#ffffff", "promptText": "请输入登录密码" }, 'powerpass_ie_dyn_Msg');
+                            </script><a href="http://ebhelper.abchina.com/ebhelper/Data/PowerEnterABC32.exe" class="download_install" target="_blank">点击此处下载控件</a><span id="powerpass_ieMsg" class="pwdError"></span>
+                    </div>
+</body>
+</html>
+
+
+
+
+
+
+	<script type="text/javascript">
+	var page = require('webpage').create();
+	page.open('http://cuiqingcai.com', function (status) {
+    	console.log("Status: " + status);
+    	
+    	if (status === "success") {
+        	page.render('example.png');
+    	}
+   		phantom.exit();
+	});
+	</script>
