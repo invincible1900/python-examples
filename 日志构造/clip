@@ -1,0 +1,43 @@
+
+head:
+[
+item:
+{
+      "COMPANY_ID" : "",
+       "PLACE_CODE" : "",
+       "DEVICE_NUM" : "",
+       "GPS_XPOINT" : "",
+       "GPS_YPOINT" : "",
+       "MAP_XPOINT" : "",
+       "MAP_YPOINT" : "",
+       "NET_ENDING_MAC" : "",
+       "NET_ENDING_IP" : "",
+       "USER_NAME" : "",
+       "CERTIFICATE_TYPE" : "",
+       "CERTIFICATE_CODE" : "",
+       "SESSION_ID" : "",
+       "ONLINE_TIME" : "",
+       "OFFLINE_TIME" : "",
+       "MOBILE_PHONE" : "",
+       "SRC_V4_IP" : "",
+       "SRC_V6_IP" : "",
+       "SRC_V4START_PORT" : "",
+       "SRC_V4END_PORT" : "",
+       "SRC_V6START_PORT" : "",
+       "SRC_V6END_PORT" : "",
+       "AUTH_TYPE" : "",
+       "AUTH_CODE" : "",
+       "APP_COMPANY_NAME" : "",
+       "APP_SOFTWARE_NAME" : "",
+       "APP_VERSION" : "",
+       "APPID" : "",
+       "IMSI" : "",
+       "IMEI_ESN_MEID" : "",
+       "OS_NAME" : "",
+       "BRAND" : "",
+       "MODEL" : "",
+ 
+}
+tail:
+]
+
