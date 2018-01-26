@@ -11,7 +11,7 @@ class MyTask(Concurrent):
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0',
         }
 
-        key = 'TSTRoinK6sOCXdqsoIRUVN7paGVcWT8OcXxgnmSYoKovApoLcs7ZHe5jujDv0NA2'
+        key = 'ipplus key'
         url = 'https://mall.ipplus360.com/ip/locate/api?key=%s&ip=%s&coordsys=BD09' % (key, ip)
 
         try:
